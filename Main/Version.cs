@@ -43,7 +43,7 @@ namespace Main
         #region Constructor
         
         /// <summary>
-        /// Initializes a new instance of a <see cref="Version"/> type. 
+        /// Initializes a new instance of the <see cref="Version"/> type. 
         /// </summary>
         /// <param name="major">The value of the major version. </param>
         /// <param name="minor">The value of the minor version. </param>

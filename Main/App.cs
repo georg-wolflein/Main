@@ -47,7 +47,7 @@ namespace Main
         #region Constructor
 
         /// <summary>
-        /// Initializes a new instance of a <see cref="App"/> type. 
+        /// Initializes a new instance of the <see cref="App"/> type. 
         /// </summary>
         /// <param name="name">The name of the application. </param>
         /// <param name="version">The current application version. </param>
