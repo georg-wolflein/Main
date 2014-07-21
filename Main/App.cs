@@ -38,7 +38,15 @@ namespace Main
         {
             get
             {
-                return this.Name + " (" + this.Version.ToLongString() + ")";
+                string info = this.Name;
+                try
+                {
+                    info += " (" + this.Version.ToLongString() + ")";
+                }
+                catch (NullReferenceException)
+                {
+                }
+                return info;
             }
         }
 
